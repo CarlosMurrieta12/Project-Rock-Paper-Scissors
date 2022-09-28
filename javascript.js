@@ -12,5 +12,5 @@ const getComputerChoice = () => {
 };
 
 let gamePlay = (playerSelection, computerSelection) => {
-    
-}
+
+} 
