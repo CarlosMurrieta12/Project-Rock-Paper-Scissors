@@ -39,12 +39,8 @@ let gamePlay = (selection, computerSelection) => {
     }
 };
 
-const game = () => {
-    for (let i = 0; i < 5; i++) {
-        const selection = prompt('Rock, Paper, or Scissors? To save humanity')
-const computerSelection = getComputerChoice();
-        console.log(gamePlay(selection, computerSelection));
-    }
+for (let i = 0; i < 5; i++) {
+    const selection = prompt('Rock, Paper, or Scissors? To save humanity')
+    const computerSelection = getComputerChoice();
+    console.log(gamePlay(selection, computerSelection));
 };
-
-console.log(game());
